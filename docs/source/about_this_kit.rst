@@ -1,162 +1,55 @@
-.. _about_this_kit:
+.. __about_this_kit:
 
-About This Kit
+About_this_kit
 ====================
 
-LAFVIN 2.13Inch e-Paper HAT
+Preface
 -------------------------------
 
-.. figure:: ./Tutorial/img/main.jpg
-   :align: center
-   :width: 80%
-
-   *LAFVIN 2.13Inch e-Paper HAT*
-
-Introduction
----------------
-
-This is 2.13inch E-Ink display HAT with Raspberry Pi 40PIN GPIO extension header, compatible with Raspberry Pi series boards.   250x122 resolution, Black and White Two Display colors, with embedded controller, communicating via SPI interface, supports partial refresh.
-
-No backlight, keeps displaying last content for a long time even when power down.    Ultra low power consumption, basically power is only required for refreshing.
-
-SPI interface, for connecting with controller boards likeArduino/ESP32, etc.    Onboard voltage translator, compatible with 3.3V / 5V MCUs.
-
-Comes with online development resources and manual (driver board circuit diagram, examples for Raspberry Pi)
-
-Parameters
---------------
-
-.. list-table:: 
-   :header-rows: 1
-   :widths: 40 60
-   :class: longtable
-
-   * - Parameter
-     - Specification
-   * - Screen size
-     - 2.13inch
-   * - Driver board dimensions
-     - 69*30mm
-   * - Display dimensions
-     - 48.55mm × 23.71mm
-   * - Outline dimensions(screen only)
-     - 59.2mm × 29.2mm × 1.05mm
-   * - Operating voltage
-     - 3.3V/5V(5V is required for power supply and signal)
-   * - Communication interface
-     - SPI
-   * - Dot pitch
-     - 0.194mm × 0.194mm
-   * - Resolution
-     - 250 x 122
-   * - Display color
-     - Black, white
-   * - Grey scale
-     - 2
-   * - Refresh time
-     - 2s
-   * - Refresh power
-     - 26.4mW (typ.)
-   * - Standby current
-     - < 0.01uA (almost none)
-   * - Operating temperature
-     - 0 ~ 50 ℃
-   * - Storage temperature
-     - -25 ~ 70 ℃
-
-.. note::
-
-    - **Refresh time**: The refresh time is the experimental results, the actual refresh time will have errors, and the actual effect shall prevail. There will be a flickering effect during the global refresh process, this is a normal phenomenon.
-          
-    - **Refresh power consumption**: The power consumption data is the experimental results. The actual power consumption will have a certain error due to the existence of the driver board and the actual use situation. The actual effect shall prevail.
-          
-    - **Low temperature operation**: Refresh in a low temperature environment may appear color cast, it need to be static in the environment of 25℃ for 6 hours before refresh.
-
-Communication Protocol
------------------------
+Breakout Board for ESP32/ESP32S3 Before we understand the ESP32 breakout board,we need to first understand it.The following figure is a schematic diagram of the 
+ESP32/ESP32_S3 breakout board:
 
 .. figure:: ./Tutorial/img/spi_com.png
    :align: center
    :width: 70%
    
-   *SPI Communication Interface*
+The hardware interfaces :   
+-------------------------------
 
-- **CSB (CS)**: Slave chip select signal, active at low level. When it is at low level, the chip is enabled.
-- **SCL (SCK/SCLK)**: Serial clock signal.
-- **D/C (DC)**: Data/command control signal, write command (Command) when the level is low; write data (Data/parameter) when the level is high.
-- **SDA (DIN)**: Serial data signal.
-- **Timing**: CPHL=0, CPOL=0, i.e. SPI mode 0.
-
-Note: For specific information about SPI communication, you can search for information online on your own.
-
-Working Principle
---------------------
-
-The e-paper used in this product uses "microcapsule electrophoresis display" technology for image display. The basic principle is that charged nanoparticles suspended in a liquid migrate under the action of an electric field. The e-paper display screen displays patterns by reflecting ambient light and does not require a backlight. Under ambient light, the e-paper display screen is clearly visible, with a viewing angle of almost 180°. Therefore, e-paper displays are ideal for reading.
-
-Program Principle
---------------------
-
-- We define the pixels in a monochrome picture, 0 is black and 1 is white.
-      
-  - White: □, Bit 1
-        
-  - Black: ■, Bit 0
-        
-- The dot in the figure is called a pixel. As we know, 1 and 0 are used to define the color, therefore we can use one bit to define the color of one pixel, and 1 byte = 8 pixels
-      
-- For example, If we set the first 8 pixels to black and the last 8 pixels to white, we show it by codes, they will be 16 bit as below:
-      
-.. figure:: ./Tutorial/img/E-paper_hardware_work_1.png
+.. figure:: ./Tutorial/img/spi_com.png
    :align: center
    :width: 70%
-   
-   *Pixel Representation Example*
 
-- For computer, the data is saved in MSB format:
-      
-.. figure:: ./Tutorial/img/E-paper_hardware_work_2.png
+.. figure:: ./Tutorial/img/spi_com.png
    :align: center
    :width: 70%
-   
-   *MSB Data Format*
 
-So we can use two bytes for 16 pixels.
+Note
+-------------------------------
 
-Precautions
-------------
+1. The  Breakout Board for ESP32 supports both the  ESP32 and  ESP32S3 boards.Please pay attention to the orientation of the ESP32 board when using it. Inserting itincorrectly or misaligning it couldlead to board damage.
+2. The 5V is powered by the DC jack, and it supports a maximum ourput current of 3A. 
+3. The S terminal directly connects to the ESP32 board, with a levelrange of 0-3.3V. Most electronic modules in the market apply TTL signals, with some powered by 3.3V and others by 5V. According to the TTL Logic Levels, the range of high level is 2-5V and low ranges from 0 to 0.8V. Therefore, even if a 5V device is used,it can still be driven by the pinsof the S Terminal. However, if level conversion chip is added to the circuit, it will cause malfunction to the 3.3V devices.
+4. The power supply of the 3.3V pins depends on whether you connect power supply to USB or DC jack.
 
-.. role:: red
-   :class: red
+Safety and Precautions :
+-------------------------------
+Please follow the following safety precautions when using or storing this product:
 
-1. :red:`Partial Refresh Limitation: For e-Paper displays that support partial refresh, please note that you cannot refresh them with the partial refresh mode all the time. After refreshing partially several times, you need to fully refresh EPD once. Otherwise, the display effect will be abnormal, which cannot be repaired!`
+1. Keep this product out of the reach of children under 6 years old.
+2. This product should be used only when there is adult supervision present as young children lack necessaryjudgment regarding safety and the consequences of product misuse.
+3. This product contains small parts and parts, which are sharp. This product contains electrically conductive parts. Use caution with electrically conductive parts near or around power supplies, batteries and powered (live) circuits.
+4. When the product is turned ON, activated or tested, some parts will move or rotate. To avoid injuries to hands and fingers, keep them away from any moving parts!
+5. It is possible that an improperly connected or shorted circuit may cause overheating. Should this happen, immediately disconnect the power supply or remove the batteries and do not touch anything until it cools down! When everything is safe and cool, review the product tutorial to identify the cause.
+6. Only operate the product in accordance with the instructions and guidelines of this tutorial, otherwise parts may be damaged or you could be injured.
+7. Store the product in a cool dry place and avoid exposing the product to direct sunlight.
+8. After use, always turn the power OFF and remove or unplug the batteries before storing.
 
-2. :red:`Power Management: Note that the screen cannot be powered on for a long time. When the screen is not refreshed, please set the screen to sleep mode or power off it. Otherwise, the screen will remain in a high voltage state for a long time, which will damage the e-Paper and cannot be repaired!`
+Componen List
+-------------------------------
 
-3. :red:`Refresh Intervals: When using the e-Paper display, it is recommended that the refresh interval is at least 180s, and refresh at least once every 24 hours. If the e-Paper is not used for a long time, you should use the program to clear the screen before storing it. (Refer to the datasheet for specific storage environment requirements.)`
+1.5MM 单字螺丝刀*1
+ESP32-Breakout Board*1
 
-4. **Sleep Mode**: After the screen enters sleep mode, the sent image data will be ignored, and it can be refreshed normally only after initializing again.
-      
-5. **Border Color Adjustment**: Control the 0x3C or 0x50 (refer to the datasheet for details) register to adjust the border color. In the demo, you can adjust the Border Waveform Control register or VCOM AND DATA INTERVAL SETTING to set the border.
-      
-6. **Image Display Issues**: If you find that the created image data is displayed incorrectly on the screen, it is recommended to check whether the image size setting is correct, change the width and height settings of the image and try again.
-      
-7. **Voltage Compatibility**: The working voltage of the e-Paper display is 3.3V. If you buy the raw panel, you need to add a level convert circuit for compatibility with 5V voltage. The new version of the driver board (V2.1 and subsequent versions) has been added a level processing circuit, which can support both 3.3V and 5V. The old version only supports a 3.3V working environment. You can confirm the version before using it. (The one with the 20-pin chip on the PCB is generally the new version. And the version number is under the board name.)
-      
-8. :red:`Cable Handling: The FPC cable of the screen is fragile, Please note: Do not bend the cable along the vertical direction of the screen to avoid tearing the cable; Do not repeatedly excessive bending line to avoid line fracture; Do not bend the cable toward the front of the screen to prevent the cable from being disconnected from the panel. It is recommended to use after fixing the cable during debugging and development.`
+   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
 
-9. :red:`Screen Fragility: The screen of e-Paper is relatively fragile, please try to avoid dropping, bumping and pressing hard.`
-
-10. **Testing Recommendation**: We recommend that customers use the sample program provided by us to test with the corresponding development board.
-
-.. raw:: html
-
-   <style>
-   .red {
-     color: red;
-     font-weight: bold;
-   }
-   .longtable td {
-     padding: 8px;
-   }
-   </style>
