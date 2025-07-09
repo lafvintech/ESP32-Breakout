@@ -39,6 +39,6 @@ ESP32 DEVKI TV1 and ESP32_S3 needs 5v power supply. In this tutorial, we need co
 
    .. image:: /Tutorial/img/32供电.png
 
-   .. image:: /Tutorial/img/S3主控.jpg
+   .. image:: /Tutorial/img/S3供电.jpg
 
    .. image:: /Tutorial/img/供电.jpg
