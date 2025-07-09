@@ -8,15 +8,10 @@ ESP32 DEVKI TV1 Board
 
 Please pay attention to the position of the antenna and ensure that  theESP32  DEVKI TV1 is correctly inserted onto the base board.
 
-.. figure:: ./Tutorial/img/1.jpg
-   :align: center
-   :width: 70%
-
+   .. image:: /Tutorial/img/1.jpg
    *ESP32 DEVKI TV1 Board before Assembly*
 
-.. figure:: ./Tutorial/img/32主控.jpg
-   :align: center
-   :width: 80%
+   .. image:: /Tutorial/img/32主控.jpg
    
    *ESP32 DEVKI TV1 Board after Assembly*
 
@@ -27,15 +22,11 @@ ESP32_S3 Board
 
 Please pay attention to the position of the antenna and ensure that the ESP32_S3 is correctly inserted onto the base board.
 
-.. figure:: ./Tutorial/img/对齐2.jpg
-   :align: center
-   :width: 80%
+   .. image:: /Tutorial/img/对齐2.jpg
 
    *ESP32_S3 Board before Assembly*
 
-.. figure:: ./Tutorial/img/S3主控.jpg
-   :align: center
-   :width: 80%
+   .. image:: /Tutorial/img/S3主控.jpg
    
    *ESP32_S3 Board after Assembly*
 
@@ -48,4 +39,4 @@ ESP32 DEVKI TV1 and ESP32_S3 needs 5v power supply. In this tutorial, we need co
 
    .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_10.png
+   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
