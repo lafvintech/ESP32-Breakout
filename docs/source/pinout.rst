@@ -6,7 +6,7 @@ Pinout
 .. role:: red
    :class: red
 
-:red:`ESP32 DEVKU TV1_Board`
+:red:`ESP32 DEVKUT_V1_Board`
 -------------------------------
 
    .. image:: /Tutorial/img/ESP32_引脚.png

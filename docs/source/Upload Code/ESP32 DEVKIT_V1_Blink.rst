@@ -1,6 +1,6 @@
-.. __ESP32 DEVKI TV1_Blink:
+.. __ESP32 DEVKIT_V1_Blink:
 
-ESP32 DEVKI TV1_Blink
+ESP32 DEVKIT_V1_Blink
 ========================
 
 ①Start Arduino IDE, open the code in File->Open...->Breakout Board for ESP32 ESP32S3>Sketch>ESP32_Sketch_ESP32_Blink>Sketch_ESP32_Blink
@@ -11,11 +11,11 @@ ESP32 DEVKI TV1_Blink
 
    .. image:: /Tutorial/img/32程序.png
 
-②Use USB cable to connect the ESP32 DEVKI TV1 board to the computer.
+②Use USB cable to connect the ESP32 DEVKIT_V1 board to the computer.
 
    .. image:: /Tutorial/img/32供电.png
 
-③Select your Board in Tools > Board menu > esp32 >DOIT ESP32 DEVKI TV1
+③Select your Board in Tools > Board menu > esp32 >DOIT ESP32 DEVKIT_V1
 
    .. image:: /Tutorial/img/32板子选择.png
 
