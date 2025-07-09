@@ -9,14 +9,18 @@ Preface
 Breakout Board for ESP32/ESP32S3 Before we understand the ESP32 breakout board,we need to first understand it.The following figure is a schematic diagram of the 
 ESP32/ESP32_S3 breakout board:
 
-.. figure:: ./Tutorial/img/spi_com.png
+.. figure:: ./Tutorial/img/正面.jpg
    :align: center
    :width: 70%
    
+.. figure:: ./Tutorial/img/背面.jpg
+   :align: center
+   :width: 80%
+
 The hardware interfaces :   
 -------------------------------
 
-.. figure:: ./Tutorial/img/spi_com.png
+.. figure:: ./Tutorial/img/区域划分.png
    :align: center
    :width: 70%
 
@@ -49,7 +53,8 @@ Componen List
 -------------------------------
 
 1.5MM 单字螺丝刀*1
+
 ESP32-Breakout Board*1
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/组件.jpg
 
