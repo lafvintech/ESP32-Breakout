@@ -1,4 +1,4 @@
-.. __board_assembly:
+.. __board_Assembly:
 
 Board_Assembly
 ====================
