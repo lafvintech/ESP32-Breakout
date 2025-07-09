@@ -58,3 +58,5 @@ ESP32-Breakout Board*1
 
    .. image:: /Tutorial/img/组件.jpg
 
+Compatible motherboards
+-------------------------------

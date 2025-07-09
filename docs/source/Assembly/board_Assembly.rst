@@ -37,6 +37,6 @@ POWER
 
 ESP32 DEVKI TV1 and ESP32_S3 needs 5v power supply. In this tutorial, we need connect ESP32 to computer via USB cable to power it and program it. We can also use other 5v power source to power it.
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/32供电.png
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/供电.jpg
