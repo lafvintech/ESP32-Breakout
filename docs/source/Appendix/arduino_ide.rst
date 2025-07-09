@@ -96,54 +96,54 @@ lnstall CH343 drivers windows
 
 1.Connect your computer and ESP32-S3 with a USB cable
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/ESP32_S3连接USB.png
 
 1. Turn to the main interface of your computer, select “This PC” and right-click 
 to select “Manage”
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/打开设备管理.png
 
 1. Click “Device Manager”. If your computer has installed CH343, you can see “USB -Enhances-SERIAL CH343 (COMx)”. And you can click here to move 
 to the next step
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/设备管理.png
 
 :red:`Installing CH343`
 
 First, download CH343 driver, click HERE to download the appropriate one based 
 on your operating system.
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/CH343下载页面.png
 
 
 If you would not like to download the installation package, you can open “Breakout 
 Board for ESP32/ESP32S3/Install CH343 drivers Windows”, we have prepared the 
 installation package.   
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/CH343不同系统安装包.png
 
 Open the folder “Breakout Board for ESP32/ESP32S3/Install CH343 drivers Windows/
 Windows/”
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/CH343安装程序.png
 
 Double click “CH343SER.EXE”.
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/CH343安装步骤1.png
 
 Click “INSTALL” and wait for the installation to complete.
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/CH343安装步骤2.png
 
 Install successfully. Close all interfaces.
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/CH343安装步骤3.png
 
 When ESP32-S3 is connected to computer, select “This PC”, right-click to select
  “Manage” and click “Device Manager ” in the newly pop-up dialog box, and you
  can see the following interface.
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/CH343查看安装情况.png
 
 So far, CH343 has been installed successfully. Close all dialog boxes.
 
@@ -162,17 +162,17 @@ So far, CH343 has been installed successfully. Close all dialog boxes.
 Installing ESP32 Add-on in Arduino IDE
 --------------
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/核心包.png
 
 ①Search for esp32 and select 3.2.0 click the INSTALL button for esp32 by 
 Espressif Systems.
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/搜索ESP 3.2.0.png
 
 ②Installing,this will take a while
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/ESP32核心包安装中.png
 
 ③Successfully installed platform esp32:3 .2.0
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_7.png
+   .. image:: /Tutorial/img/ESP32核心包安装成功.png

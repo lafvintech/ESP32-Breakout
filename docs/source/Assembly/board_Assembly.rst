@@ -1,6 +1,6 @@
-.. __board_Assembly:
+.. __board_assembly:
 
-Board Assembly
+Board_Assembly
 ====================
 
 ESP32 DEVKI TV1 Board
