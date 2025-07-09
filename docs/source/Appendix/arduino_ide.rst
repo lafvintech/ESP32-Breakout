@@ -96,7 +96,7 @@ lnstall CH343 drivers windows (For ESP32_S3_Board)
 
 1.Connect your computer and ESP32-S3 with a USB cable
 
-   .. image:: /Tutorial/img/connect.png
+   .. image:: /Tutorial/img/S3供电.jpg
 
 1. Turn to the main interface of your computer, select “This PC” and right-click 
 to select “Manage”
