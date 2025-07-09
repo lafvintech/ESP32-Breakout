@@ -140,8 +140,8 @@ Install successfully. Close all interfaces.
    .. image:: /Tutorial/img/CH343安装步骤3.png
 
 When ESP32-S3 is connected to computer, select “This PC”, right-click to select
- “Manage” and click “Device Manager ” in the newly pop-up dialog box, and you
- can see the following interface.
+“Manage” and click “Device Manager ” in the newly pop-up dialog box, and you
+can see the following interface.
 
    .. image:: /Tutorial/img/CH343查看安装情况.png
 
@@ -167,7 +167,7 @@ Installing ESP32 Add-on in Arduino IDE
 ①Search for esp32 and select 3.2.0 click the INSTALL button for esp32 by 
 Espressif Systems.
 
-   .. image:: /Tutorial/img/搜索ESP 3.2.0.png
+   .. image:: /Tutorial/img/搜索ESP_3_2_0.png
 
 ②Installing,this will take a while
 

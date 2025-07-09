@@ -9,12 +9,12 @@ Pinout
 :red:`ESP32 DEVKU TV1_Board`
 -------------------------------
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_2.png
+   .. image:: /Tutorial/img/ESP32_引脚.png
 
 :red:`ESP32_S3 Board`
 -------------------------------
 
-   .. image:: /Tutorial/img/Install_Arduino_IDE_2.png
+   .. image:: /Tutorial/img/ESP32_S3引脚.png
 
 .. raw:: html
 
