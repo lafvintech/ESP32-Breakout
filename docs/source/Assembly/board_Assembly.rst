@@ -6,11 +6,11 @@ Board_Assembly
 ESP32 DEVKI TV1 Board
 -------------------------------
 
- Please pay attention to the position of the antenna and ensure that  theESP32  DEVKI TV1 is correctly inserted onto the base board.
+Please pay attention to the position of the antenna and ensure that  theESP32  DEVKI TV1 is correctly inserted onto the base board.
 
-.. figure:: ./Tutorial/img/对齐.jpg
+.. figure:: ./Tutorial/img/1.jpg
    :align: center
-   :width: 80%
+   :width: 70%
 
    *ESP32 DEVKI TV1 Board before Assembly*
 
