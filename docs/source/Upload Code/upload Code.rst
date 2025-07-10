@@ -5,6 +5,10 @@ Upload Code
 
 This chapter is the Start Point in the journey to build and explore ESP32 electronic projects. We will start with simple “Blink” project. In this project, we will use either ESP32 or ESP32S3 to control the blinking of  the onboard LED.
 
+Download the code by clicking this link: `Download Code <https://github.com/lafvintech/ESP32-Breakout.git>`_
+   
+The downloaded compressed package contains code, data sheet, and driver installation.
+
 .. toctree::
    :maxdepth: 2
 
