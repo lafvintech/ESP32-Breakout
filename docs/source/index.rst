@@ -4,8 +4,8 @@ LAFVIN ESP32-Breakout Board
 .. toctree::
    :maxdepth: 2
 
-   about_this_kit
-   Assembly/board_Assembly
-   Appendix/arduino_ide
+   about this kit
+   Assembly/board Assembly
+   Appendix/arduino ide
    Upload Code/upload Code
    pinout

@@ -61,3 +61,29 @@ ESP32-Breakout Board*1
 Compatible motherboards
 -------------------------------
 
+.. role:: red
+   :class: red
+
+:red:`The ESP32 breakout board is compatible with a variety of ESP32 series main control boards with different modules. The method to determine whether it is compatible is to compare the number, position and name of the pins
+
+*ESP32 DEVKIT V1 Board*
+
+   .. image:: /Tutorial/img/ESP1.webp
+
+   .. image:: /Tutorial/img/ESP2.avif
+
+*ESP32_S3 Board*
+
+   .. image:: /Tutorial/img/ESP321S.jpg
+
+.. raw:: html
+   .longtable td {
+     padding: 8px;
+   }
+   </style>
+
+   <style>
+   .red {
+     color: red;
+     font-weight: bold;
+   }

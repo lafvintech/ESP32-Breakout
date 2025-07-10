@@ -1,6 +1,6 @@
-.. __ESP32 DEVKIT_V1_Blink:
+.. __ESP32 DEVKIT V1_Blink:
 
-ESP32 DEVKIT_V1_Blink
+ESP32 DEVKIT V1_Blink
 ========================
 
 ①Start Arduino IDE, open the code in File->Open...->Breakout Board for ESP32 ESP32S3>Sketch>ESP32_Sketch_ESP32_Blink>Sketch_ESP32_Blink

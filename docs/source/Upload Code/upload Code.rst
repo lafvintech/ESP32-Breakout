@@ -8,7 +8,7 @@ This chapter is the Start Point in the journey to build and explore ESP32 electr
 .. toctree::
    :maxdepth: 2
 
-   ESP32 DEVKI TV1_Blink.rst
+   ESP32 DEVKIT V1_Blink.rst
    ESP32_S3 Board_Blink.rst
 
 `Demo Video <https://www.arduino.cc/en/Guide>`_
