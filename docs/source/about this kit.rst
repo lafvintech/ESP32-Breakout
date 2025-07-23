@@ -20,14 +20,9 @@ ESP32/ESP32_S3 breakout board:
 The hardware interfaces :   
 -------------------------------
 
-.. figure:: ./Tutorial/img/区域划分.png
+.. figure:: ./Tutorial/img/区域功能.jpg
    :align: center
    :width: 70%
-
-.. figure:: ./Tutorial/img/spi_com.png
-   :align: center
-   :width: 70%
-
 Note
 -------------------------------
 
