@@ -69,7 +69,7 @@ Compatible motherboards
 
  *ESP32_S3 Board*
 
-   .. image:: /Tutorial/img/32兼容.jpg
+   .. image:: /Tutorial/img/S3兼容.jpg
 
 .. raw:: html
    .longtable td {
