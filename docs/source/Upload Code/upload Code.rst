@@ -15,4 +15,7 @@ The downloaded compressed package contains code, data sheet, and driver installa
    ESP32 DEVKIT V1_Blink.rst
    ESP32_S3 Board_Blink.rst
 
-`Demo Video <https://www.arduino.cc/en/Guide>`_
+.. raw:: html
+   
+   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=vfllj_hsUwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
