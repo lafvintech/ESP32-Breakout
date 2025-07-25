@@ -30,6 +30,8 @@ Note
 2. The 5V is powered by the DC jack, and it supports a maximum ourput current of 3A. 
 3. The S terminal directly connects to the ESP32 board, with a levelrange of 0-3.3V. Most electronic modules in the market apply TTL signals, with some powered by 3.3V and others by 5V. According to the TTL Logic Levels, the range of high level is 2-5V and low ranges from 0 to 0.8V. Therefore, even if a 5V device is used,it can still be driven by the pinsof the S Terminal. However, if level conversion chip is added to the circuit, it will cause malfunction to the 3.3V devices.
 4. The power supply of the 3.3V pins depends on whether you connect power supply to USB or DC jack.
+5. During use, if the pin is NC, the corresponding LED indicator will light up or go out randomly.
+6. If you find that some LEDs are not controlled, please first check whether the pin is an input pin. The LED indicator can only indicate the status of the output.
 
 Safety and Precautions :
 -------------------------------
