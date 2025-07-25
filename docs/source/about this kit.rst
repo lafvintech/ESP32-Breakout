@@ -65,13 +65,11 @@ Compatible motherboards
 
  *ESP32 DEVKIT V1 Board*
 
-   .. image:: /Tutorial/img/ESP1.webp
-
-   .. image:: /Tutorial/img/ESP2.avif
+   .. image:: /Tutorial/img/32兼容.jpg
 
  *ESP32_S3 Board*
 
-   .. image:: /Tutorial/img/ESP321S.jpg
+   .. image:: /Tutorial/img/32兼容.jpg
 
 .. raw:: html
    .longtable td {
