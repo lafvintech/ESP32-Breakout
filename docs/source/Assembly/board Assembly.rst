@@ -8,7 +8,7 @@ ESP32 DEVKIT_V1 Board
 
 Please pay attention to the position of the antenna and ensure that  theESP32  DEVKI TV1 is correctly inserted onto the base board.
 
-   .. image:: /Tutorial/img/1.jpg
+   .. image:: /Tutorial/img/安装对比.jpg
    *ESP32 DEVKIT V1 Board before Assembly*
 
    .. image:: /Tutorial/img/32主控.jpg
