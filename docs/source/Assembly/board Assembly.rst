@@ -28,10 +28,12 @@ Note: The S terminal of the breakout board directly connects to the  pins of the
 POWER
 -------------------------------
 
-ESP32 DEVKIT_V1 and ESP32_S3 needs 5v power supply. In this tutorial, we need connect ESP32 to computer via USB cable to power it and program it. We can also use other 5v power source to power it.
+ESP32 DEVKIT_V1 and ESP32_S3 needs 5v power supply. In this tutorial, we need connect ESP32 to computer via USB cable to power it and program it. However, during the operation of the breakout board, we strongly recommend powering it with an external power supply.
 
    .. image:: /Tutorial/img/32供电.png
 
    .. image:: /Tutorial/img/S3供电.jpg
+
+   .. image:: /Tutorial/img/推荐外部电源.jpg
 
    .. image:: /Tutorial/img/供电.jpg
