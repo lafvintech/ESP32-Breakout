@@ -17,5 +17,4 @@ The downloaded compressed package contains code, data sheet, and driver installa
 
 .. raw:: html
    
-   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=vfllj_hsUwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+   <iframe width="1897" height="785" src="https://www.youtube.com/embed/vfllj_hsUwg" title="LAFVIN ESP32 Breakout Board" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
