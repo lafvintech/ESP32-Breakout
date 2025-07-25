@@ -63,13 +63,13 @@ Compatible motherboards
 
    .. image:: /Tutorial/img/间距判断.jpg
 
-                *ESP32 DEVKIT V1 Board*
+ *ESP32 DEVKIT V1 Board*
 
    .. image:: /Tutorial/img/ESP1.webp
 
    .. image:: /Tutorial/img/ESP2.avif
 
-                 *ESP32_S3 Board*
+ *ESP32_S3 Board*
 
    .. image:: /Tutorial/img/ESP321S.jpg
 
