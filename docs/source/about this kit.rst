@@ -49,7 +49,7 @@ Please follow the following safety precautions when using or storing this produc
 Componen List
 -------------------------------
 
-1.5MM 单字螺丝刀*1
+1.5 mm flathead screwdriver × 1
 
 ESP32-Breakout Board*1
 
