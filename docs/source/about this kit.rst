@@ -13,7 +13,7 @@ ESP32/ESP32_S3 breakout board:
    :align: center
    :width: 70%
    
-.. figure:: ./Tutorial/img/背面.jpg
+.. figure:: ./Tutorial/img/LB003背面.jpg
    :align: center
    :width: 80%
 
