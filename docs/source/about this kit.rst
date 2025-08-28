@@ -6,8 +6,7 @@ About_this_kit
 Preface
 -------------------------------
 
-Before we understand the ESP32 breakout board,we need to first understand it.The following figure is a schematic diagram of the 
-ESP32/ESP32_S3 breakout board:
+We first need to understand what an ESP32 / ESP32-S3 breakout board is. The diagram below shows a schematic of the ESP32 / ESP32-S3 breakout board.
 
 .. figure:: ./Tutorial/img/正面.jpg
    :align: center
